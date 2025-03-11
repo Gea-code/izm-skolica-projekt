@@ -62,7 +62,7 @@ const Header= () => {
                     <li><a className="dropdown-item" href="#">Varaždin</a></li>
                     <li><a className="dropdown-item" href="#">Osijek</a></li>
                     <li><a className="dropdown-item" href="#">Zadar</a></li>
-                    <li><a className="dropdown-item" href="#">Dubrovnik</a></li>
+                    <li><a className="dropdown-item" href="#">Čakovec</a></li>
                   </ul>
                 </li>
                 <li className="nav-item">
