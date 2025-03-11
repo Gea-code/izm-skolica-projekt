@@ -1,0 +1,243 @@
+.hero img{
+    width: 100%;
+  }
+  
+  .opis-hero{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid #363737;
+    border-bottom: 4px solid #363737;
+    border-right: 4px solid #363737;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #ffa69e;
+  }
+  
+  .prva-boja
+  {
+    background-color: #ffa69e;
+    padding: 12px;
+  }
+  
+  .druga-boja
+  {
+    background-color: #ddfff7;
+    padding: 12px;
+  }
+  
+  .treca-boja
+  {
+    background-color: #93e1d8;
+    padding: 12px;
+  }
+  
+  .hero
+  {
+    background-color: #ddfff7;
+  }
+
+  
+  .slick-slider
+  {
+    overflow: hidden;
+  }
+  
+  .slika-njuske img{
+    max-width: 100%;
+  }
+  
+  .blog
+  {
+    border: 1px solid #363737;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px 30px;
+  }
+  
+  .blog img
+  {
+    max-width: 100%;
+    border-radius: 15px;
+  }
+  
+  .lana{
+    border: 1px solid #363737;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px 30px;
+  }
+  
+  .zuja{
+    border: 1px solid #363737;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px 30px;
+  }
+  
+  .lana img
+  {
+    max-width: 50%;
+    border-radius: 15px;
+  }
+  
+  .zuja img{
+    max-width: 70%;
+    border-radius: 15px;
+  }
+  
+  .druga-boja .clanci{
+    margin-left: -113.6px;
+    margin-right: -113.6px;
+  }
+  
+  
+  .login-intro{
+    min-height: 100vh;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .login-intro div{
+    max-width: 420px;
+  }
+  
+  .login-intro h1{
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .login-intro p{
+    color: #000;
+    font-size: 15px;
+    line-height: 1.7;
+    letter-spacing: -1%;
+  }
+  
+  .login-form{
+    display: flex;
+    align-items: center;  
+  }
+  
+  .login-form input{
+    background-color: #EDF2F7;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 46px;
+    border: none;
+    padding: 0 12px;
+  }
+  
+  .login-form button{
+    background-color: #141411;
+    color: #fff;
+    border-radius: 90px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 24px;
+    border: none;
+  }
+  
+  .login-form label, .login-form input
+  {
+    display: inline;
+    width: 100%;
+  }
+  
+  .cute-dog img
+  {
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  .rita{
+    border-radius: 15px;
+    border: 1px solid #363737;
+    padding: 8px;
+    
+  }
+  
+  .felix{
+    border-radius: 15px;
+    border: 1px solid #363737;
+    padding: 8px;
+    
+  }
+  
+  .dante{
+    border-radius: 15px;
+    border: 1px solid #363737;
+    padding: 8px;
+    
+  }
+  
+  .lana-i-lili{
+    border-radius: 15px;
+    border: 1px solid #363737;
+    padding: 8px;
+    
+  }
+  
+  .zaza{
+    border-radius: 15px;
+    border: 1px solid #363737;
+    padding: 8px;
+    margin: 8px 4px;
+  }
+  
+  .luna{
+    border-radius: 15px;
+    border: 1px solid #363737;
+    padding: 8px;
+    margin: 8px 4px;
+  }
+  
+  .kora{
+    border-radius: 15px;
+    border: 1px solid #363737;
+    padding: 8px;
+    margin: 8px 4px;
+  }
+  
+  .tara{
+    border-radius: 15px;
+    border: 1px solid #363737;
+    padding: 8px;
+    margin: 8px 4px;
+  }
+  
+  .missy{
+    border-radius: 15px;
+    border: 1px solid #363737;
+    padding: 8px;
+    margin: 8px 4px;
+  }
+  
+  .finch{
+    border-radius: 15px;
+    border: 1px solid #363737;
+    padding: 8px;
+    margin: 8px 4px;
+  }
+  
+  .lana-2{
+    border-radius: 15px;
+    border: 1px solid #363737;
+    padding: 8px;
+    margin: 8px 4px;
+  }
+  
+  .zuja-2{
+    border-radius: 15px;
+    border: 1px solid #363737;
+    padding: 8px;
+    margin: 8px 4px;
+  }
+  
+  .d-flex{
+    color: #000
+  }
