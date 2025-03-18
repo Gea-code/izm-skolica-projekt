@@ -16,10 +16,12 @@ import TecajnaLista from './components/pages/TecajnaLista';
 import Countries from './components/pages/Countries';
 import SingleCountry from './components/pages/SingleCountry';
 import Shop from './components/pages/shop/Shop';
+import NjuskeZaDruzenje from './components/pages/njuske-za-druzenje/NjuskeZaDruzenje';
 
 import ProductSingle from './components/pages/shop/ProductSingle';
 import CartPage from './components/pages/shop/CartPage';
 import CheckoutPage from './components/pages/shop/CheckoutPage';
+
 
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 
@@ -44,7 +46,8 @@ function App() {
       <Route path="/shop" element={<Shop />} />
       <Route path="/shop:id" element={<ProductSingle />} />
       <Route path="/cart" element={<CartPage />} />
-      <Route path="/checkout" elemnt={<CheckoutPage />} />
+      <Route path="/checkout" element={<CheckoutPage />} />
+      <Route path="/njuskezadruzenje" element={<NjuskeZaDruzenje />} />
 
     </Routes>
     <Footer />

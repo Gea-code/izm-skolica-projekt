@@ -31,13 +31,14 @@ const Header= () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item dropdown">
-                  <a className="nav-link dropdown-toggle" href="njuske-za-druzenje.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Njuške za druženje
                   </a>
                   <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="njuske-za-druzenje.html">Tipične njuške</a></li>
-                    <li><a className="dropdown-item" href="njuske-za-druzenje.html">Sramežljive njuške</a></li>
-                    <li><a className="dropdown-item" href="njuske-za-druzenje.html">Aktivnije njuške</a></li>
+                    <li><Link to="/njuskezadruzenje" className="dropdown-item">Njuške za druženje</Link></li>
+                    <li><Link to="/tipicnenjuske" className="dropdown-item">Tipične njuške</Link></li>
+                    <li><Link to="/sramezljivenjuske" className="dropdown-item">Sramežljive njuške</Link></li>
+                    <li><Link to="/aktivnijenjuske" className="dropdown-item">Aktivnije njuške</Link></li>
                   </ul>
                 </li>
                 <li className="nav-item dropdown">
@@ -67,6 +68,9 @@ const Header= () => {
                 </li>
                 <li className="nav-item">
                   <Link to="/about" className="nav-link">O nama</Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/blog" className="nav-link">Blog</Link>
                 </li>
                 <li className="nav-item">
 

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import './About.css';
 
 const About = () => {
     const [ data, setData] = useState(null);
@@ -13,8 +14,8 @@ const About = () => {
 
     if(!data) return <p>Učitavanje...</p>;
 
-    return(
-            <div dangerouslySetInnerHTML={{__html:data.content.rendered}} />
+    return (
+        <div style={{ paddingTop: "100px" }} dangerouslySetInnerHTML={{ __html: data.content.rendered }} />
     );
 };
 

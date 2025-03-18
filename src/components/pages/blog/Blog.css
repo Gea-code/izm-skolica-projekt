@@ -10,3 +10,7 @@
     font-weight: 700;
     text-align: center;
 }
+
+.container.blog {
+    padding-top: 100px;
+}
