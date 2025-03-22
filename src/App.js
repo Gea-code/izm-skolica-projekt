@@ -17,6 +17,9 @@ import Countries from './components/pages/Countries';
 import SingleCountry from './components/pages/SingleCountry';
 import Shop from './components/pages/shop/Shop';
 import NjuskeZaDruzenje from './components/pages/njuske-za-druzenje/NjuskeZaDruzenje';
+import TipicneNjuske from './components/pages/njuske-za-druzenje/TipicneNjuske';
+import SramezljiveNjuske from './components/pages/njuske-za-druzenje/SramezljiveNjuske';
+import AktivnijeNjuske from './components/pages/njuske-za-druzenje/AktivnijeNjuske';
 
 import ProductSingle from './components/pages/shop/ProductSingle';
 import CartPage from './components/pages/shop/CartPage';
@@ -48,6 +51,9 @@ function App() {
       <Route path="/cart" element={<CartPage />} />
       <Route path="/checkout" element={<CheckoutPage />} />
       <Route path="/njuskezadruzenje" element={<NjuskeZaDruzenje />} />
+      <Route path="/tipicnenjuske" element={<TipicneNjuske />} />
+      <Route path="/sramezljivenjuske" element={<SramezljiveNjuske />} />
+      <Route path="/aktivnijenjuske" element={<AktivnijeNjuske />} />
 
     </Routes>
     <Footer />

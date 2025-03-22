@@ -1,3 +1,7 @@
+body{
+    background-color: #EDE8D0;
+}
+
 .blog h1{
     font-size: 36px;
     margin: 40px 0;
@@ -13,4 +17,13 @@
 
 .container.blog {
     padding-top: 100px;
+}
+
+.klasa-poravnanja {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.klasa-poravnanja img {
+    margin: 0 auto;
 }

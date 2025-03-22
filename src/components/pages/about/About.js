@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import './About.css';
+import '../home/Home.css';
 
 const About = () => {
     const [ data, setData] = useState(null);
@@ -15,7 +16,7 @@ const About = () => {
     if(!data) return <p>Učitavanje...</p>;
 
     return (
-        <div style={{ paddingTop: "100px" }} dangerouslySetInnerHTML={{ __html: data.content.rendered }} />
+        <div className="prva-boja" style={{ paddingTop: "100px" }} dangerouslySetInnerHTML={{ __html: data.content.rendered }} />
     );
 };
 

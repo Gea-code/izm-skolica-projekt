@@ -10,18 +10,8 @@ import './Home.css';
 
 const Home= () => {
 
-  var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
-
-
    return(
 <>
-<Slider {...settings}>
 <div class="hero">
     <img src="./img/hero.jpg"/>
   </div>
@@ -34,7 +24,6 @@ const Home= () => {
       </div>
     </div>
   </div>
-  </Slider>
 
   <div class="cointainer prva-boja">
     <div class="row lana">

@@ -11,10 +11,6 @@ const Header= () => {
     if(user)  setUsername(user);
   }, []);
 
-  const location = useLocation();
-  console.log(location);
-  if(location.pathname === '/login' || location.pathname === '/register') return null;
-
   const logout = () => {
     localStorage.removeItem('token');
     localStorage.removeItem('username');

@@ -10,8 +10,8 @@ const Footer= () => {
 
     const location = useLocation();
     return(
-    <footer class="text-center">
-    <div class="icons">
+    <footer className="text-center druga-boja">
+    <div className="icons">
       <a href="/">
       <FontAwesomeIcon icon={faFacebook} />
       </a>
