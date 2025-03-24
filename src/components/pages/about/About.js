@@ -16,7 +16,7 @@ const About = () => {
     if(!data) return <p>Učitavanje...</p>;
 
     return (
-        <div className="prva-boja" style={{ paddingTop: "100px" }} dangerouslySetInnerHTML={{ __html: data.content.rendered }} />
+        <div className="container" style={{ paddingTop: "100px" }} dangerouslySetInnerHTML={{ __html: data.content.rendered }} />
     );
 };
 

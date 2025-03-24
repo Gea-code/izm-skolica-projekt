@@ -20,6 +20,7 @@ import NjuskeZaDruzenje from './components/pages/njuske-za-druzenje/NjuskeZaDruz
 import TipicneNjuske from './components/pages/njuske-za-druzenje/TipicneNjuske';
 import SramezljiveNjuske from './components/pages/njuske-za-druzenje/SramezljiveNjuske';
 import AktivnijeNjuske from './components/pages/njuske-za-druzenje/AktivnijeNjuske';
+import Pubertetlije from './components/pages/njuske-po-dobi/Pubertetlije';
 
 import ProductSingle from './components/pages/shop/ProductSingle';
 import CartPage from './components/pages/shop/CartPage';
@@ -54,6 +55,7 @@ function App() {
       <Route path="/tipicnenjuske" element={<TipicneNjuske />} />
       <Route path="/sramezljivenjuske" element={<SramezljiveNjuske />} />
       <Route path="/aktivnijenjuske" element={<AktivnijeNjuske />} />
+      <Route path="/pubertetlije" element={<Pubertetlije />} />
 
     </Routes>
     <Footer />
