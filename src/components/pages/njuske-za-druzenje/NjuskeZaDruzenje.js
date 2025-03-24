@@ -24,11 +24,10 @@ const NjuskeZaDruzenje = () => {
                         <MediaImg id={post.featured_media} size="medium" />
                         </div>
                         <div className="col-md-6 offset-md-1">
-                            <Link to={'/njuskezadruzenje/' + post.slug}>
+                            <Link to={'/' + post.slug}>
                             <h2 dangerouslySetInnerHTML={{ __html: post.title.rendered }} />
                             </Link>
                             <p dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }} />
-                            
                         </div>
                      </div>
                 ))}
