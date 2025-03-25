@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './App.css';
@@ -21,6 +20,9 @@ import TipicneNjuske from './components/pages/njuske-za-druzenje/TipicneNjuske';
 import SramezljiveNjuske from './components/pages/njuske-za-druzenje/SramezljiveNjuske';
 import AktivnijeNjuske from './components/pages/njuske-za-druzenje/AktivnijeNjuske';
 import Pubertetlije from './components/pages/njuske-po-dobi/Pubertetlije';
+import OdrasleNjuske from './components/pages/njuske-po-dobi/OdrasleNjuske';
+import Seniori from './components/pages/njuske-po-dobi/Seniori';
+import Links from './components/pages/Links';
 
 import ProductSingle from './components/pages/shop/ProductSingle';
 import CartPage from './components/pages/shop/CartPage';
@@ -56,6 +58,9 @@ function App() {
       <Route path="/sramezljivenjuske" element={<SramezljiveNjuske />} />
       <Route path="/aktivnijenjuske" element={<AktivnijeNjuske />} />
       <Route path="/pubertetlije" element={<Pubertetlije />} />
+      <Route path="/odraslenjuske" element={<OdrasleNjuske />} />
+      <Route path="/seniori" element={<Seniori />} />
+      <Route path="/poveznice" element={<Links />} />
 
     </Routes>
     <Footer />

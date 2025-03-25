@@ -26,6 +26,9 @@ const Header= () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                  <Link to="/" className="nav-link">Početna</Link>
+                </li>
                 <li className="nav-item dropdown">
                   <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Njuške za druženje
@@ -43,23 +46,9 @@ const Header= () => {
                   </a>
                   <ul className="dropdown-menu">
                     <li><a className="dropdown-item" href="#">Štenci</a></li>
-                    <li><a className="dropdown-item" href="#">Pubertetlije</a></li>
-                    <li><a className="dropdown-item" href="#">Odrasle njuške</a></li>
-                    <li><a className="dropdown-item" href="#">Njuške seniori</a></li>
-                  </ul>
-                </li>
-                <li className="nav-item dropdown">
-                  <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Njuške po gradovima
-                  </a>
-                  <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Zagreb</a></li>
-                    <li><a className="dropdown-item" href="#">Rijeka</a></li>
-                    <li><a className="dropdown-item" href="#">Split</a></li>
-                    <li><a className="dropdown-item" href="#">Varaždin</a></li>
-                    <li><a className="dropdown-item" href="#">Osijek</a></li>
-                    <li><a className="dropdown-item" href="#">Zadar</a></li>
-                    <li><a className="dropdown-item" href="#">Dubrovnik</a></li>
+                    <li><Link to="/pubertetlije" className="dropdown-item">Pubertetlije</Link></li>
+                    <li><Link to="/odraslenjuske" className="dropdown-item">Odrasle njuške</Link></li>
+                    <li><Link to="/seniori" className="dropdown-item">Njuške seniori</Link></li>
                   </ul>
                 </li>
                 <li className="nav-item">
@@ -67,6 +56,9 @@ const Header= () => {
                 </li>
                 <li className="nav-item">
                   <Link to="/blog" className="nav-link">Blog</Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/poveznice" className="nav-link">Korisne poveznice</Link>
                 </li>
                 <li className="nav-item">
 

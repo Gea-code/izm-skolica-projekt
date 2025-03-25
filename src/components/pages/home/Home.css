@@ -215,3 +215,22 @@
 .slick-dots li.slick-active button:before {
   color: #93e1d8 !important;
 }
+
+.klasa-za-red{
+  margin-top: 100px;
+}
+
+.korisni-linkovi-prvi{
+  background-color:#ffa69e;
+  border: 1px solid #363737;
+  border-bottom: 4px solid #363737;
+  border-right: 4px solid #363737;
+  border-radius: 15px;
+}
+.korisni-linkovi-drugi{
+  background-color:  #ddfff7;
+  border: 1px solid #363737;
+  border-bottom: 4px solid #363737;
+  border-right: 4px solid #363737;
+  border-radius: 15px;
+}

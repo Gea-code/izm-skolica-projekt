@@ -28,7 +28,7 @@ const BlogSingle = () => {
     }, [id]);
 
     if (loading) return <p>Učitavanje...</p>;
-    if (!post) return <p>Post not found.</p>; // Handle case when no post is found
+    if (!post) return <p>Post not found.</p>;
 
     return (
         <div className="single-post container">
