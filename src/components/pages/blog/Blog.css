@@ -15,10 +15,6 @@ body{
     text-align: center;
 }
 
-.container.blog {
-    padding-top: 100px;
-}
-
 .klasa-poravnanja {
     text-align: center;
     margin: 0 auto;
@@ -26,4 +22,9 @@ body{
 
 .klasa-poravnanja img {
     margin: 0 auto;
+}
+
+.single-post.container
+{
+    padding-top: 100px;
 }

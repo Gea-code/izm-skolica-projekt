@@ -45,7 +45,7 @@ const Header= () => {
                     Njuške po dobi
                   </a>
                   <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Štenci</a></li>
+                    <li><Link to="/stenci" className="dropdown-item">Štenci</Link></li>
                     <li><Link to="/pubertetlije" className="dropdown-item">Pubertetlije</Link></li>
                     <li><Link to="/odraslenjuske" className="dropdown-item">Odrasle njuške</Link></li>
                     <li><Link to="/seniori" className="dropdown-item">Njuške seniori</Link></li>

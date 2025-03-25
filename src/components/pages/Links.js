@@ -27,14 +27,14 @@ const Linkovi = () => {
             </div>
             <div className="col-md-4 col-sm-12 korisni-linkovi-prvi">
                 <h1>Korisne poveznice</h1>
-                <h4><Link to="https://tierarzt-karlsruhe-durlach.de/hr/pas-jeo-cokoladu/">Što ako vaš pas pojede čokoladu?</Link></h4>
-                <h4><Link to="https://www.pet-centar.hr/blogs/pitajte-veterinara/pas-pojeo-otrov-za-stakore?srsltid=AfmBOopgiWe-WCviN_n9RRPofjzSiW6Tc40wLjs2YBjqnId06kE0zKIO">Što ako vaš pas pojede otrov za štakore?</Link></h4>
-                <h4><Link to="https://www.pet-centar.hr/blogs/pitajte-veterinara/kako-bez-posjete-veterinaru-smiriti-povracanje-u-pasa-izbor-namirnica-za-kuhani-obrok?srsltid=AfmBOooNmDdRjP3qYxbm553qOcC0FM86RjvjXK8OB-NWGwn18wYt-Z5P">Upomoć, moj pas povraća!</Link></h4>
-                <h4><Link to="https://www.zooplus.hr/magazin/psi/zdravlje-njega-pasa/proljev-kod-psa">Upomoć, moj pas ima proljev!</Link></h4>
-                <h4><Link to="https://www.zooplus.hr/magazin/psi/zdravlje-njega-pasa/svrbez-kod-pasa">Upomoć, moj se pas nekontrolirano češe!</Link></h4>
-                <h4><Link to="https://www.zooplus.hr/magazin/psi/zdravlje-njega-pasa/cijepljenje-psa">Važna cjepiva za pse</Link></h4>
-                <h4><Link to="https://www.zagreb.info/kucni-ljubimci/raj-cetveronozne-prijatelje-popisali-smo-psece-parkove-zagrebu/71643/">Popis livada i parkova za pse u Zagrebu</Link></h4>
-                <h4><Link to="https://www.zagreb.info/kucni-ljubimci/popis-plaza-za-pse-bezbrizno-ljetovanje-s-kucnim-ljubimcima/68871/">Popis plaža za pse u Hrvatskoj</Link></h4>
+                <h4><Link to="https://tierarzt-karlsruhe-durlach.de/hr/pas-jeo-cokoladu/" target="_blank">Što ako vaš pas pojede čokoladu?</Link></h4>
+                <h4><Link to="https://www.pet-centar.hr/blogs/pitajte-veterinara/pas-pojeo-otrov-za-stakore?srsltid=AfmBOopgiWe-WCviN_n9RRPofjzSiW6Tc40wLjs2YBjqnId06kE0zKIO" target="_blank">Što ako vaš pas pojede otrov za štakore?</Link></h4>
+                <h4><Link to="https://www.pet-centar.hr/blogs/pitajte-veterinara/kako-bez-posjete-veterinaru-smiriti-povracanje-u-pasa-izbor-namirnica-za-kuhani-obrok?srsltid=AfmBOooNmDdRjP3qYxbm553qOcC0FM86RjvjXK8OB-NWGwn18wYt-Z5P" target="_blank">Upomoć, moj pas povraća!</Link></h4>
+                <h4><Link to="https://www.zooplus.hr/magazin/psi/zdravlje-njega-pasa/proljev-kod-psa" target="_blank">Upomoć, moj pas ima proljev!</Link></h4>
+                <h4><Link to="https://www.zooplus.hr/magazin/psi/zdravlje-njega-pasa/svrbez-kod-pasa" target="_blank">Upomoć, moj se pas nekontrolirano češe!</Link></h4>
+                <h4><Link to="https://www.zooplus.hr/magazin/psi/zdravlje-njega-pasa/cijepljenje-psa" target="_blank">Važna cjepiva za pse</Link></h4>
+                <h4><Link to="https://www.zagreb.info/kucni-ljubimci/raj-cetveronozne-prijatelje-popisali-smo-psece-parkove-zagrebu/71643/" target="_blank">Popis livada i parkova za pse u Zagrebu</Link></h4>
+                <h4><Link to="https://www.zagreb.info/kucni-ljubimci/popis-plaza-za-pse-bezbrizno-ljetovanje-s-kucnim-ljubimcima/68871/" target="_blank">Popis plaža za pse u Hrvatskoj</Link></h4>
             </div>
 
     </div>

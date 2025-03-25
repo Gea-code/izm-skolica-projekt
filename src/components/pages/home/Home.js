@@ -1,11 +1,6 @@
 import React, { useEffect, useState } from "react";
 import {Link} from "react-router-dom";
 import MediaImg from '../media/MediaImg';
-
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
 import './Home.css';
 
 
@@ -22,7 +17,7 @@ const Home= () => {
    return(
 <>
 <div class="hero">
-    <img src="./img/hero.jpg"/>
+    <img src="./img/lana_i_gea_oci.jpg" alt="pas_i_njegov_covjek" />
   </div>
 
   <div class="container">
@@ -37,7 +32,7 @@ const Home= () => {
   <div class="cointainer prva-boja">
     <div class="row lana">
       <div class="col md-6">
-        <img src="./img/lana.jpg"/>
+        <img src="./img/lana.jpg" alt="lana" />
       </div>
       <div class="col md-6">
         <h2>Naša inspiracija za ovaj projekt</h2>
@@ -48,7 +43,7 @@ const Home= () => {
     <div class="container">
       <div class="row zuja">
         <div class="col-md-6">
-          <img src="./img/zuja.jpg"/>
+          <img src="./img/zuja.jpg" alt="zuja" />
         </div>
         <div class="col-md-6">
           <h2>Naša najbolja prijateljica</h2>

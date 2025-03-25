@@ -19,6 +19,7 @@ import NjuskeZaDruzenje from './components/pages/njuske-za-druzenje/NjuskeZaDruz
 import TipicneNjuske from './components/pages/njuske-za-druzenje/TipicneNjuske';
 import SramezljiveNjuske from './components/pages/njuske-za-druzenje/SramezljiveNjuske';
 import AktivnijeNjuske from './components/pages/njuske-za-druzenje/AktivnijeNjuske';
+import Stenci from './components/pages/njuske-po-dobi/Stenci';
 import Pubertetlije from './components/pages/njuske-po-dobi/Pubertetlije';
 import OdrasleNjuske from './components/pages/njuske-po-dobi/OdrasleNjuske';
 import Seniori from './components/pages/njuske-po-dobi/Seniori';
@@ -57,6 +58,7 @@ function App() {
       <Route path="/tipicnenjuske" element={<TipicneNjuske />} />
       <Route path="/sramezljivenjuske" element={<SramezljiveNjuske />} />
       <Route path="/aktivnijenjuske" element={<AktivnijeNjuske />} />
+      <Route path="/stenci" element={<Stenci />} />
       <Route path="/pubertetlije" element={<Pubertetlije />} />
       <Route path="/odraslenjuske" element={<OdrasleNjuske />} />
       <Route path="/seniori" element={<Seniori />} />
